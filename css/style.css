@@ -5,7 +5,7 @@
   background-color: rgb(66, 56, 56);
   padding: 1rem;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   gap: 1rem;  
   font-family: poppins;
 }
@@ -35,7 +35,7 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 1000px;
+  width: 2000px;
 }
 
 #home-section {
@@ -76,6 +76,13 @@ iframe {
   box-shadow: 0px 0px 10px rgb(111, 122, 122);
   padding: 2rem;
   font-size: 1rem;
+  margin: 10px;
+}
+
+#about-container section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 #about-container h1 {
@@ -114,7 +121,7 @@ iframe {
   transform: scale(1.2);
 }
 
-/**/
+/* resume.html */
 
 #resume-container {
   background-color: white;
@@ -124,6 +131,16 @@ iframe {
   box-shadow: 0px 5px 20px;
   border: 2px solid black;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#resume-container section{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 0px 20px;
 }
 
 #resume-container h1 {
