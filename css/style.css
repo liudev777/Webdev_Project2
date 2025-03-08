@@ -78,6 +78,10 @@ iframe {
   font-size: 1rem;
 }
 
+#about-container h1 {
+  color: aquamarine;
+}
+
 #about-intro p{
   font-weight: bold;
 }
