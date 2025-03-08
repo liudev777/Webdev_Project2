@@ -52,7 +52,11 @@ h1, h2 {
 
 #pineapple-img {
   width: 200px;
+  height: 200px;
   margin: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid;
 }
 
 iframe {
