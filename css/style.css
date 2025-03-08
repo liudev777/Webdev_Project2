@@ -30,7 +30,8 @@ h1, h2 {
 #index-page {
   display: flex;
   flex-direction: column;
-  gap: 24px
+  gap: 24px;
+  width: 1000px;
 }
 
 #home-section {
@@ -61,7 +62,41 @@ iframe {
 
 /* about.html */
 
+#about-container {
+  background: rgb(36, 40, 40);
+  margin: 4rem;
+  box-shadow: 0px 0px 10px rgb(111, 122, 122);
+  padding: 2rem;
+  font-size: 1rem;
+}
+
 #about-intro p{
   font-weight: bold;
   color: aquamarine;
 }
+
+#hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 1rem;
+}
+
+#visited {
+  list-style: none;
+}
+
+#drawings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#drawings img{
+  width: 10rem;
+  border-radius: 10px;
+}
+
+/**/
