@@ -110,6 +110,10 @@ iframe {
   border-radius: 10px;
 }
 
+#drawings img:hover{
+  transform: scale(1.2);
+}
+
 /**/
 
 #resume-container {
